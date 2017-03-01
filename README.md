@@ -229,10 +229,11 @@ On peut les récupérer sur  google font ou Dafont et les charger via un systèm
 .2 Positionner un élément à droite ou à gauche d’un autre.
 
 <u>inconvénients : sort du flux → certaines propriétés ne fonctionnent pas et les éléments ne sont plus relatif entre eux
++ `font-family` :change la police de caractères.
++ `display` :
 
-	font-family :change la police de caractères
+`<U>inline</u>` : aligne les éléments les uns à la suite des autres;
 
-	display :
-		inline : aligne les éléments les uns à la suite des autres.
-		block : réserve tout l’espace disponible sur la ligne, illustré par une marge qui remplis l’espace.
-		inline-block : lorsque des éléments inline-block sont côte à côte, ils se mettent à la suite et ensemble, forment un block.
+`<U>block</u>` : réserve tout l’espace disponible sur la ligne, illustré par une marge qui remplis l’espace.
+
+`<u>inline-block</u>` : lorsque des éléments inline-block sont côte à côte, ils se mettent à la suite et ensemble, forment un block.
