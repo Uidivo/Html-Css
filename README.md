@@ -81,30 +81,33 @@ on sélectionne :
 <head>
 </head>
 <body>
-</body>
-```
+</body>```
+
 et on appuis sur la touche Tab ou shift Tab
 dans le `<head>` les métadonnée   
 
-```<html>
+```html
+<html>
   <head>
     <meta charset="Utf-8">
     <meta name="twitter:" content="utf-8"
     <title>Index de demo</title>```
+
 ![image](C:\xampp\htdocs\Html-Css\Forum\img\test1.png)
 
 `<meta name="Utf-8">`  est une information sur le style de caractère utiliser sur le fichier.
 `Body`(généralement en haut de la page)
 
 Dans body (exclusif au body):
-```  <body>				
-    <header>
+```
+<body>
+ <header>
 
-    </header>
-    <footer>
+ </header>
+  <footer>
 
-    </footer>
-  </body>```
+  </footer>
+</body>```
 ![image](C:\xampp\htdocs\Html-Css\Forum\img\test2.png)  
 Footer(en bas de la page généralement avec les réseaux sociaux et contacts )
 ![image](C:\xampp\htdocs\Html-Css\Forum\img\test3.png)
@@ -178,11 +181,9 @@ header img{
         width:10%;
       }```
 
-
 Ctrl+Maj+/ pour mettre en pause une ligne (commenter une ligne)
 
-`Les commentaires` :
-	Les commentaires servent à noter des informations textuels au milieu du code sans perturber son exécution. Ils peuvent également servir à masquer une partie du code sans avoir à effacer son contenus.
+`Les commentaires`:Les commentaires servent à noter des informations textuels au milieu du code sans perturber son exécution. Ils peuvent également servir à masquer une partie du code sans avoir à effacer son contenus.
   +	raccourcis clavier : Ctrl + Maj + /
 commentaires en html : `<!--  Zone de commentaire-->`
 
