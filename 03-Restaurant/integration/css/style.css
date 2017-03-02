@@ -1,0 +1,45 @@
+.inlineB{
+  display: inline-block;
+  /*width: 1200px;*/
+}
+body{
+  background-image:url('../img/resto.jpg');
+  background-size: cover;
+}
+header{
+  position: relative;
+}
+nav{
+  position: absolute;
+  right: 30px;
+}
+nav ul{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 2px;
+}
+#logo{
+  top: 60px;
+  margin: auto;
+  width: 200px;
+  position: relative;
+}
+#logo img{
+  top: -59px;
+  position: absolute;
+  width: 100%;
+}
+#logo div{
+  width: 0;
+  height: 0;
+  border-top: 150px solid #C2185B;
+  border-left: 150px solid transparent;
+}
+#Story article{
+  display: inline;
+  text-align: left;
+  margin: 100px;
+}
+#Story div img{
+  float:right;
+}

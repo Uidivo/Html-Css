@@ -39,20 +39,22 @@ Atom> sur le dossier Html-Css clik droit New file >index01.html
 <body>
 </body>
 </html>!)```
+,
 
 ![image](C:\xampp\htdocs\Html-Css\Forum\img\test.png)
+,
 
-```Indentation``` : Manière de structurer les choses pour nous permettre de clarifier son travail.
+`Indentation` : Manière de structurer les choses pour nous permettre de clarifier son travail.
 + Nécessaire pour le travail à plusieurs
 + Permet de se repérer plus facilement dans la hiérarchie
 
 
 ## Head/Métadonnées : informations en arrière plan.
 Informations fonctionnelles de la page:
-+ Titre →```<title>```
-+ Type de caractères → ``` <meta charset=”utf-8”>```
-+ Feuilles de styles → ```<link rel="stylesheet" href="/css/style.css">```
-+ Frameworks → ```<link> / <script>```
++ Titre →`<title>`
++ Type de caractères → ` <meta charset=”utf-8”>`
++ Feuilles de styles → `<link rel="stylesheet" href="/css/style.css">`
++ Frameworks → `<link> / <script>`
 
 `Body` : Contenu visible du site
 
@@ -66,9 +68,14 @@ Informations fonctionnelles de la page:
 
 `Article`:Ensemble d'éléments syntaxique permettant de manipuler un bloc.
 
-+ Ces 3 éléments représentent la même chose mais corresponde à des niveaux de représentation différents:
++ Ces 3 éléments représentent
+la même chose mais corresponde
+à des niveaux de représentation
+différents.
 
-`section` sera utilisé pour un grand ensemble, div pour un ensemble plus ou moin grand de type indéfinis et article pour un bloc contenant un article(sous-titre, paragraphe.)
+`section`: sera utilisé pour un grand ensemble, div pour un
+ensemble plus ou moin grand de type indéfinis et article pour
+un bloc contenant un article(sous-titre, paragraphe.)
 
 
 <u>! ne pas oublier d’enregistrer et de recharger la page pour avoir un visuel de son code!</u>
@@ -99,7 +106,7 @@ dans le `<head>` les métadonnée
 `Body`(généralement en haut de la page)
 
 Dans body (exclusif au body):
-```
+```html
 <body>
  <header>
 
@@ -108,7 +115,8 @@ Dans body (exclusif au body):
 
   </footer>
 </body>```
-![image](C:\xampp\htdocs\Html-Css\Forum\img\test2.png)  
+![image](C:\xampp\htdocs\Html-Css\Forum\img\test2.png)
+
 Footer(en bas de la page généralement avec les réseaux sociaux et contacts )
 ![image](C:\xampp\htdocs\Html-Css\Forum\img\test3.png)
 
@@ -170,7 +178,7 @@ Insérer une image:
 <img src="img/xx.jpg" alt="Logo xx">```
 
 
-Retoucher l’image:
+Retoucher l’image
 
 ```html
 img{
@@ -178,10 +186,10 @@ img{
   height:auto;
 }
 header img{
-        width:10%;
-      }```
-
+  width:10%;
+}```
 Ctrl+Maj+/ pour mettre en pause une ligne (commenter une ligne)
+
 
 `Les commentaires`:Les commentaires servent à noter des informations textuels au milieu du code sans perturber son exécution. Ils peuvent également servir à masquer une partie du code sans avoir à effacer son contenus.
   +	raccourcis clavier : Ctrl + Maj + /
