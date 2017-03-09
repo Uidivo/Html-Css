@@ -1,0 +1,35 @@
+.inlineB{
+  display: inline-block;
+  padding-bottom: 120px;
+  /*width: 1200px;*/
+}
+body{
+  background-image:url('../img/truck(3).png');
+  background-size: cover;
+  width: 1200px;
+}
+header{
+  position: relative;
+}
+nav{
+  position: absolute;
+  right: 30px;
+}
+nav ul{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 2px;
+}
+#logo{
+  top: 60px;
+  margin: auto;
+  width: 200px;
+  height: 240px;
+  position: relative;
+}
+#logo img{
+  top: -59px;
+  position: absolute;
+  width: 200px;
+
+}
